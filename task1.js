@@ -12,11 +12,12 @@ for(i=0;i<=num.length;i++)
   {
     sum+=1;
   }
-  //case Even
+  //case 5
   if(num[i]===5)
     {
       sum+=5;
     }
+    //case odd
     else if(num[i]%2>=1)
     {
       sum+=3;
